@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login Form</title>
+    <!-- Link to external stylesheet -->
+    <link rel="stylesheet" href="profile-style.css">     
+</head>
+<body>
+     <!-- Navigation Bar -->
+    <div class="main">
+        <div class="navbar">
+            <h2 class="icon"><img src="images/@logo4.png" alt="Feed Hope Logo" height="70"></h2>
+            <div class="menu">
+                <ul>
+                    <!-- Navigation links -->
+                    <li><a href="content.html">Home</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="profile.html" class="active">User Profile</a></li>
+                    <li><a href="#">Feedback</a></li>
+                    <li><a href="#">Sitemap</a></li>
+                    <li><a href="team.html">Our Team</a></li>
+                </ul>
+            </div>
+        </div>
+    <h1 id="heading">Build User Profile</h1>
+    <button id="start">Start</button> 
+    <div class="container" style="display: none;">
+        <span class="loading-text">Profile completed 0%</span>
+        <div class="loading-bar-container">
+            <div class="loading-bar" id="loading-bar"></div>
+          </div>
+        <h2 id="userprofile">heading</h2>
+        <h2 id="questionno">question number</h2> 
+        <h3 id="question">question</h3>
+    </div>
+    <!-- User profile records -->
+    <div class="records" style="display: none;">
+        <h3 id="heading1">Personal Details:</h3>
+        <!-- Personal details section -->
+        <ul id="personal">
+            <li id="name" style="display: none;">Name: </li>
+            <li id="surname" style="display: none;">Surname: </li>
+            <li id="age" style="display: none;">Age: </li>
+            <li id="gender" style="display: none;">Gender: </li>
+            <li id="terms" style="display: none;">Agree with policy terms: </li>
+        </ul>
+        <!-- Volunteer tasks section -->
+        <h3 id="heading2" style="display: none;">Volunteer Tasks:</h3>
+        <ul id="volunteer" style="display: none;">
+            <li id="rational" style="display: none;">Rational: </li>
+            <li id="intrest" style="display: none;">Intrested in: </li>
+            <li id="skills" style="display: none;">Skills: </li>
+            <li id="type" style="display: none;">Assignment type: </li>
+        </ul>
+         <!-- Qualifications section -->
+        <h3 id="heading3" style="display: none;">Qualifications:</h3>
+        <ul id="qualifications">
+            <li id="studyarea" style="display: none;">Area of Study: </li>
+            <li id="institute" style="display: none;">Institute: </li>
+        </ul>
+        <!-- Contact information section -->
+        <h3 id="heading4" style="display: none;">Contact Information:</h3>
+        <ul id="contact" style="display: none;">
+            <li id="phone" style="display: none;">Phone No: </li>
+            <li id="email" style="display: none;">Email: </li>        
+        </ul>
+    </div>
+</div>
+<!-- Footer -->
+<footer class="footer">
+    <p>Designed and developed by G24-01</p>
+    <p>Page Editor: <a href="page_editor.html"><u>click here</u></a></p>
+</footer>
+    <!-- Link to JavaScript file -->
+    <script src="javascript.js"></script>
+</body>
+</html>
