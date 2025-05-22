@@ -20,4 +20,4 @@ All images are located in the `/images` folder and are used across different pag
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
+   git clone https://github.com/SuvinKulasingh/Food-Insecurity-Blog.git
